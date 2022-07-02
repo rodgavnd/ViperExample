@@ -13,6 +13,20 @@
 		A55CAAFC286D05B800EA92BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55CAAFA286D05B800EA92BC /* Main.storyboard */; };
 		A55CAAFE286D05BB00EA92BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55CAAFD286D05BB00EA92BC /* Assets.xcassets */; };
 		A55CAB01286D05BB00EA92BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55CAAFF286D05BB00EA92BC /* LaunchScreen.storyboard */; };
+		A55CAB0D286D090E00EA92BC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB0C286D090E00EA92BC /* Person.swift */; };
+		A55CAB0F286D095B00EA92BC /* PeopleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB0E286D095B00EA92BC /* PeopleResponse.swift */; };
+		A55CAB11286D0DF000EA92BC /* PeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB10286D0DF000EA92BC /* PeopleRepository.swift */; };
+		A55CAB17286D131500EA92BC /* people_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A55CAB16286D131500EA92BC /* people_success_response.json */; };
+		A55CAB1B286D138B00EA92BC /* people_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A55CAB1A286D138B00EA92BC /* people_error_response.json */; };
+		A55CAB1D286D1FAC00EA92BC /* VIPERLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB1C286D1FAC00EA92BC /* VIPERLayers.swift */; };
+		A55CAB20286D207500EA92BC /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB1F286D207500EA92BC /* Presenter.swift */; };
+		A55CAB22286D208300EA92BC /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB21286D208300EA92BC /* Interactor.swift */; };
+		A55CAB24286D208D00EA92BC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB23286D208D00EA92BC /* Router.swift */; };
+		A55CAB26286D247100EA92BC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB25286D247100EA92BC /* Configuration.swift */; };
+		A55CAB28286D255700EA92BC /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CAB27286D255700EA92BC /* CustomViewController.swift */; };
+		A584198F286E4D89007DF66B /* BeerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A584198E286E4D89007DF66B /* BeerRepository.swift */; };
+		A5841991286E4DE8007DF66B /* BeerRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5841990286E4DE8007DF66B /* BeerRemoteRepository.swift */; };
+		A5841993286E4DF9007DF66B /* BeerLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5841992286E4DF9007DF66B /* BeerLocalRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		A55CAAFD286D05BB00EA92BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55CAB00286D05BB00EA92BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55CAB02286D05BB00EA92BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55CAB0C286D090E00EA92BC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A55CAB0E286D095B00EA92BC /* PeopleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponse.swift; sourceTree = "<group>"; };
+		A55CAB10286D0DF000EA92BC /* PeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRepository.swift; sourceTree = "<group>"; };
+		A55CAB16286D131500EA92BC /* people_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = people_success_response.json; sourceTree = "<group>"; };
+		A55CAB1A286D138B00EA92BC /* people_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = people_error_response.json; sourceTree = "<group>"; };
+		A55CAB1C286D1FAC00EA92BC /* VIPERLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERLayers.swift; sourceTree = "<group>"; };
+		A55CAB1F286D207500EA92BC /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A55CAB21286D208300EA92BC /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		A55CAB23286D208D00EA92BC /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A55CAB25286D247100EA92BC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A55CAB27286D255700EA92BC /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		A584198E286E4D89007DF66B /* BeerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRepository.swift; sourceTree = "<group>"; };
+		A5841990286E4DE8007DF66B /* BeerRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRemoteRepository.swift; sourceTree = "<group>"; };
+		A5841992286E4DF9007DF66B /* BeerLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerLocalRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 		A55CAAF3286D05B800EA92BC /* RepositoryProject */ = {
 			isa = PBXGroup;
 			children = (
+				A584198D286E4D76007DF66B /* Repository */,
+				A55CAB1E286D200600EA92BC /* VIPER */,
 				A55CAAF4286D05B800EA92BC /* AppDelegate.swift */,
 				A55CAAF6286D05B800EA92BC /* SceneDelegate.swift */,
 				A55CAAF8286D05B800EA92BC /* ViewController.swift */,
@@ -63,8 +93,36 @@
 				A55CAAFD286D05BB00EA92BC /* Assets.xcassets */,
 				A55CAAFF286D05BB00EA92BC /* LaunchScreen.storyboard */,
 				A55CAB02286D05BB00EA92BC /* Info.plist */,
+				A55CAB0C286D090E00EA92BC /* Person.swift */,
+				A55CAB0E286D095B00EA92BC /* PeopleResponse.swift */,
+				A55CAB10286D0DF000EA92BC /* PeopleRepository.swift */,
+				A55CAB16286D131500EA92BC /* people_success_response.json */,
+				A55CAB1A286D138B00EA92BC /* people_error_response.json */,
+				A55CAB1C286D1FAC00EA92BC /* VIPERLayers.swift */,
 			);
 			path = RepositoryProject;
+			sourceTree = "<group>";
+		};
+		A55CAB1E286D200600EA92BC /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				A55CAB1F286D207500EA92BC /* Presenter.swift */,
+				A55CAB21286D208300EA92BC /* Interactor.swift */,
+				A55CAB23286D208D00EA92BC /* Router.swift */,
+				A55CAB25286D247100EA92BC /* Configuration.swift */,
+				A55CAB27286D255700EA92BC /* CustomViewController.swift */,
+			);
+			name = VIPER;
+			sourceTree = "<group>";
+		};
+		A584198D286E4D76007DF66B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A584198E286E4D89007DF66B /* BeerRepository.swift */,
+				A5841990286E4DE8007DF66B /* BeerRemoteRepository.swift */,
+				A5841992286E4DF9007DF66B /* BeerLocalRepository.swift */,
+			);
+			name = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55CAB1B286D138B00EA92BC /* people_error_response.json in Resources */,
 				A55CAB01286D05BB00EA92BC /* LaunchScreen.storyboard in Resources */,
 				A55CAAFE286D05BB00EA92BC /* Assets.xcassets in Resources */,
 				A55CAAFC286D05B800EA92BC /* Main.storyboard in Resources */,
+				A55CAB17286D131500EA92BC /* people_success_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +199,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55CAAF9286D05B800EA92BC /* ViewController.swift in Sources */,
+				A5841991286E4DE8007DF66B /* BeerRemoteRepository.swift in Sources */,
 				A55CAAF5286D05B800EA92BC /* AppDelegate.swift in Sources */,
+				A55CAB24286D208D00EA92BC /* Router.swift in Sources */,
+				A55CAB28286D255700EA92BC /* CustomViewController.swift in Sources */,
+				A5841993286E4DF9007DF66B /* BeerLocalRepository.swift in Sources */,
+				A55CAB20286D207500EA92BC /* Presenter.swift in Sources */,
+				A55CAB22286D208300EA92BC /* Interactor.swift in Sources */,
+				A584198F286E4D89007DF66B /* BeerRepository.swift in Sources */,
+				A55CAB0D286D090E00EA92BC /* Person.swift in Sources */,
+				A55CAB0F286D095B00EA92BC /* PeopleResponse.swift in Sources */,
+				A55CAB11286D0DF000EA92BC /* PeopleRepository.swift in Sources */,
+				A55CAB1D286D1FAC00EA92BC /* VIPERLayers.swift in Sources */,
 				A55CAAF7286D05B800EA92BC /* SceneDelegate.swift in Sources */,
+				A55CAB26286D247100EA92BC /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

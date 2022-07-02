@@ -1,0 +1,7 @@
+{
+    "success": false,
+    "error": {
+        "code": "TL01",
+        "desc": " Esto es un error del mock"
+    }
+}
